@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background: url("../images/squared_metal.png");
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+.author_image{
+    float: left;
+    width: 200px;
+}
+.col-md-8{
+    float: right;
+}
+
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
