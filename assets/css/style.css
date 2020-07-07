@@ -14,12 +14,16 @@ nav{
     
     
 }
+.col-1{
+    margin: 0 30px 0 30px;
+}
 .fab{
     background-color: rgb(239,13,80);
     border: 1px solid #700626;
     border-radius: 50%;
     padding: 15px;
     margin-top: 10px;
+    
 }
 .fa{
     background-color: rgb(239,13,80);
@@ -27,9 +31,15 @@ nav{
     border-radius: 50%;
     padding: 15px;
     margin-top: 10px;
+
+}
+.i{
+    font-size: 10px;
 }
 .icon{
     text-align: center;
+  
+
 }
 .navbar{
     margin-bottom: 10px;
@@ -65,9 +75,6 @@ nav{
     color: black;
 }
 .container{
-   
-    
-  
     padding: 1.3125rem;
     margin: 0px auto 0px auto;
 }
@@ -109,7 +116,12 @@ h4:hover{
 .btn-primary:hover{
     background-color: #DE534B;
 }
-
+#profile{
+    border-radius: 15%;
+}
+#about{
+    padding-top: 20px;
+}
 footer {
     padding: 30px 0;
     clear: both;
@@ -126,4 +138,11 @@ footer {
     width: 100%;
     margin-top: 10px;
   }
+  @media only screen and (max-width: 555px){
+    .col-2{
+        flex: 1 0 16.666667%;
+        max-width: none;
+    } 
+  }
+
  
