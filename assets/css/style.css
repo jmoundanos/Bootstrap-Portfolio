@@ -14,6 +14,9 @@ nav{
     
     
 }
+p{
+    font-style: italic;
+}
 .col-1{
     margin: 0 30px 0 30px;
 }
@@ -90,24 +93,27 @@ h1 {
     font-family: 'Merriweather', serif;
   }
 img{
-    max-width: 250px;
+    max-width: 275px;
     max-height: 200px;
     margin: 10px 10px 10px 0px;
     height: fit-content;
+    border: 1px solid black;
 }
 
-h4{
-    background-color: rgb(239,13,80);
-    color: black;
-    position: relative;
+h6{
+    color: rgb(239,13,80);
     bottom: 40px;
-    max-width: 250px;
+    max-width: 275px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    
 }
 h4:hover{
     color: #DE534B;
+}
+h5{
+    text-align: center;
+    margin: 50px 0 50px 0;
+    color: rgb(239,13,80);
 }
 .btn-primary{
     background-color: rgb(239,13,80);
