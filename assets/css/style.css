@@ -115,6 +115,12 @@ h5{
     margin: 50px 0 50px 0;
     color: rgb(239,13,80);
 }
+h7{
+    font-weight: bold;
+}
+a{
+    color: rgb(239,13,80);
+}
 .btn-primary{
     background-color: rgb(239,13,80);
     border-color:rgb(239,13,80);
@@ -127,6 +133,10 @@ h5{
 }
 #about{
     padding-top: 20px;
+}
+#in-icon, #email-icon{
+   margin: 10px 0 30px 0;
+   text-align: center;
 }
 footer {
     padding: 30px 0;
