@@ -41,9 +41,8 @@ p{
 }
 .icon{
     text-align: center;
-  
-
 }
+
 .navbar{
     margin-bottom: 10px;
 }
@@ -53,7 +52,7 @@ p{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Cinzel Decorative', cursive;
-   
+    white-space: normal;
     
 }
 .navbar-light .navbar-toggler{
@@ -137,6 +136,7 @@ a{
 #in-icon, #email-icon{
    margin: 10px 0 30px 0;
    text-align: center;
+   font-size: 17px;
 }
 footer {
     padding: 30px 0;
@@ -160,5 +160,11 @@ footer {
         max-width: none;
     } 
   }
+  @media only screen and (max-width: 375px){
+    #in-icon, #email-icon{
+        display: block;
+        font-size: 12px;
+    }
+} 
 
  
