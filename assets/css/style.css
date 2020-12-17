@@ -8,10 +8,13 @@ body {
     color: rgb(0,0,0);
     
 }
+.row{
+    margin-bottom: 20px;
+}
 nav{
-    background-color:#ffffff;
-    background: rgb(225,242,247, 0.7);
-    
+    /* background-color:#ffffff; */
+    background: rgb(225,242,247);
+    box-shadow:  10px 8px 20px #888888;
     
 }
 p{
@@ -26,7 +29,7 @@ p{
     border-radius: 50%;
     padding: 15px;
     margin-top: 10px;
-    
+    box-shadow:  10px 8px 20px #888888;
 }
 .fa{
     background-color: rgb(239,13,80);
@@ -34,13 +37,14 @@ p{
     border-radius: 50%;
     padding: 15px;
     margin-top: 10px;
-
+    box-shadow:  10px 8px 20px #888888;
 }
 .i{
     font-size: 10px;
 }
 .icon{
     text-align: center;
+   
 }
 
 .navbar{
@@ -104,7 +108,7 @@ h6{
     bottom: 40px;
     max-width: 275px;
     text-align: center;
-    
+    margin-top: 20px;
 }
 h4:hover{
     color: #DE534B;
@@ -137,6 +141,11 @@ a{
    text-align: center;
    font-size: 17px;
 }
+#profile-img{
+    border: 5px solid white;
+    margin-right: 30px;
+    box-shadow: 10px 8px 20px #888888;
+}
 footer {
     padding: 30px 0;
     clear: both;
@@ -153,17 +162,31 @@ footer {
     width: 100%;
     margin-top: 10px;
   }
+
+  @media only screen and (max-width: 991px){
+    .row{
+        margin-bottom: 0;
+    }
+  }
   @media only screen and (max-width: 555px){
     .col-2{
         flex: 1 0 16.666667%;
         max-width: none;
     } 
+    
   }
   @media only screen and (max-width: 375px){
     #in-icon, #email-icon{
         display: block;
         font-size: 12px;
     }
+    #profile-img{
+        max-width: 350px;
+        max-height: 200px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
 } 
 
  
