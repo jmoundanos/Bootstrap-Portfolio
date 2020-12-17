@@ -14,7 +14,6 @@ body {
 nav{
     /* background-color:#ffffff; */
     background: rgb(225,242,247);
-    box-shadow:  10px 8px 20px #888888;
     
 }
 p{
@@ -53,22 +52,22 @@ p{
 .navbar-light .navbar-brand{
     color: rgb(239,13,80);
     padding: 1.3125rem;
-    font-size: 30px;
+    font-size: 1.48rem;
     font-weight: bold;
     font-family: 'Cinzel Decorative', cursive;
     white-space: normal;
     
 }
 .navbar-light .navbar-toggler{
-    color: black;
-    border: 1px solid black;
+    color: rgb(239,13,80);
+    border: 1px solid rgb(239,13,80);
 }
 .navbar-toggler-icon{
-    color: black;
+    color: rgb(239,13,80);
   
 }
 .navbar-light .navbar-nav .nav-link{
-    color: black;
+    color: rgb(239,13,80);
 }
 .nav-item{
     color: black;
@@ -175,6 +174,13 @@ footer {
     } 
     
   }
+  @media only screen and (max-width: 430px){
+    .navbar-toggler{
+       float: none;
+       text-align: center;
+       margin: 0 auto;
+    }
+  }
   @media only screen and (max-width: 375px){
     #in-icon, #email-icon{
         display: block;
@@ -186,7 +192,6 @@ footer {
         margin-right: 10px;
         margin-bottom: 20px;
     }
-
 } 
 
  
